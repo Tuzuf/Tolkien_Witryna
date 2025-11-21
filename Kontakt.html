@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Witryna zawierająca biografię J.R.R., jego opisy jego twórczości literackiej, a także ciekawostki o nim.">
+<meta name="keywords" content="John Ronald Reuel Tolkien, J.R.R Tolkien, Tolkien, Biografia Tolkiena, Literatura Tolkiena, Ciekawostki o Tolkienie">
+<meta name="author" content="Marcel Bilski">
+<link rel="stylesheet" href="Tolkienstyl.css" type="text/css">
+<title>Tolkienopedia</title>
+
+</head>
+<body>
+<header>
+<div class="logo"><a href="index.html"><img src="JRT_logo.png" alt='JRTlogo'></a></div>
+<nav id="nawigacja">
+	<ul class="menu">
+		<li><a href="index.html">Strona główna</a></li>
+		<li><a href="Dziecinstwo.html">Życiorys</a></li>
+		<li><a href="Wykaz_tworczosci.html">Wykaz twórczości</a></li>
+		<li><a href="Kontakt.html">Kontakt</a></li>
+	</ul>
+</nav>
+</header>
+<div id="kontakt">
+<form name="ank" action="odbior.php" method="post">
+
+<h1>Tolkienopedia</h1>
+<h2>Kontakt z właścicielem</h2>
+
+<p>Formularz mający na celu kontakt z właścicielem.</p>
+
+<p>Pseudonim<input type="text" size="20" name="pseudonim"></p>
+Temat wiadomości<select name="temat">
+<option>Historia</option>
+<option>Twórczość</option>
+<option>Inny temat wiadomości</option>
+</select>
+<p>Inny temat wiadomości<input type="text" size="20" name="inne temat wiadomosci"></p>
+ 
+<p>W skali od 1 do 5 jak oceniasz tą witrynę?</p>
+<p><input type="radio" name="ocena" value="1">1
+<input type="radio" name="ocena" value="2">2 
+<input type="radio" name="ocena" value="3">3 
+<input type="radio" name="ocena" value="4">4 
+<input type="radio" name="ocena" value="5">5   
+</p>
+
+<p>Co cię skłoniło do szukania informacji o Tolkienie?<br/>
+<p><input type="checkbox"  name="powod" value="tworczosc">Jego twórczość</p>
+<p><input type="checkbox"  name="powod" value="zyciorys">Jego życiorys</p>
+<p><input type="checkbox"  name="powod" value="inny">Inny powód<input type="text" size="20" name="inny powod"></p>
+<p>Komentarz<br>
+<textarea cols="50" rows="5" name="komentarz"></textarea></p>
+
+<p> <input type="submit" value="Wyślij"><input type="reset" value="Wyczyść"></p>
+</form>
+</div>
+</body>
+
+</html>
