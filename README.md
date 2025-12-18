@@ -1,1 +1,5 @@
-A simple website created as a university project
+# Tolkien_Witryna
+## Cel projektu
+## Technologie
+## Funkcje
+## Wynki
